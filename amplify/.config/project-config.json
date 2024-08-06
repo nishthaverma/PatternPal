@@ -1,0 +1,17 @@
+{
+  "providers": [
+    "awscloudformation"
+  ],
+  "projectName": "PatternPal",
+  "version": "3.1",
+  "frontend": "javascript",
+  "javascript": {
+    "framework": "react-native",
+    "config": {
+      "SourceDir": "/Users/nishthaverma/Documents/Projects/PatternPal",
+      "DistributionDir": "/Users/nishthaverma/Documents/Projects/PatternPal",
+      "BuildCommand": "npx expo start",
+      "StartCommand": "npm run-script start"
+    }
+  }
+}

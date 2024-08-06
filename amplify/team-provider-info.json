@@ -1,0 +1,20 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-patternpal-staging-c0db1-authRole",
+      "UnauthRoleArn": "arn:aws:iam::017820686185:role/amplify-patternpal-staging-c0db1-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::017820686185:role/amplify-patternpal-staging-c0db1-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-patternpal-staging-c0db1-deployment",
+      "UnauthRoleName": "amplify-patternpal-staging-c0db1-unauthRole",
+      "StackName": "amplify-patternpal-staging-c0db1",
+      "StackId": "arn:aws:cloudformation:us-east-2:017820686185:stack/amplify-patternpal-staging-c0db1/71830800-534b-11ef-b8ca-028590b2ac95",
+      "AmplifyAppId": "d2gwavtfjng9wk"
+    },
+    "categories": {
+      "auth": {
+        "patternpal0cff4461": {}
+      }
+    }
+  }
+}

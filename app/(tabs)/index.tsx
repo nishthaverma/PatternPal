@@ -1,15 +1,20 @@
 import { StyleSheet } from 'react-native';
-
+import { NativeBaseProvider, extendTheme } from 'native-base';
 import EditScreenInfo from '@/components/EditScreenInfo';
 import { Text, View } from '@/components/Themed';
+import { Amplify } from 'aws-amplify';
+import type { WithAuthenticatorProps } from '@aws-amplify/ui-react';
+import { withAuthenticator } from '@aws-amplify/ui-react';
+import '@aws-amplify/ui-react/styles.css';
+import awsconfig from '../../exports/aws-exports';
+Amplify.configure(awsconfig);
 
-export default function TabOneScreen() {
+export function App({ signOut, user }: WithAuthenticatorProps) {
   return (
-    <View style={styles.container}>
-      <Text style={styles.title}>Tab One</Text>
-      <View style={styles.separator} lightColor="#eee" darkColor="rgba(255,255,255,0.1)" />
-      <EditScreenInfo path="app/(tabs)/index.tsx" />
-    </View>
+    <>
+      <h1>Hello {user?.username}</h1>
+      <button onClick={signOut}>Sign out</button>
+    </>
   );
 }
 
@@ -29,3 +34,5 @@ const styles = StyleSheet.create({
     width: '80%',
   },
 });
+
+export default withAuthenticator(App);
