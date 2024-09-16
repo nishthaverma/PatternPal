@@ -10,6 +10,7 @@ import {
   Image,
   Grid,
   Divider,
+  SelectField
 } from "@aws-amplify/ui-react";
 import { Amplify } from "aws-amplify";
 import "@aws-amplify/ui-react/styles.css";
@@ -99,7 +100,7 @@ export default function App() {
           width="70%"
           margin="0 auto"
         >
-          <Heading level={1}>My Notes App</Heading>
+          <Heading level={1}>Pattern Pal</Heading>
           <View as="form" margin="3rem 0" onSubmit={createNote}>
             <Flex
               direction="column"
@@ -109,20 +110,24 @@ export default function App() {
             >
               <TextField
                 name="name"
-                placeholder="Note Name"
-                label="Note Name"
+                placeholder="Pattern Name"
+                label="Pattern Name"
                 labelHidden
                 variation="quiet"
                 required
               />
               <TextField
                 name="description"
-                placeholder="Note Description"
-                label="Note Description"
+                placeholder="Pattern Description"
+                label="Pattern Description"
                 labelHidden
                 variation="quiet"
                 required
               />
+              <SelectField label="Type">
+                <option value="Crochet">Crochet</option>
+                <option value="Knit">Knit</option>
+              </SelectField>
               <View
                 name="image"
                 as="input"
@@ -132,7 +137,7 @@ export default function App() {
               />
 
               <Button type="submit" variation="primary">
-                Create Note
+                Create Pattern
               </Button>
             </Flex>
           </View>
