@@ -142,7 +142,7 @@ export default function App() {
             </Flex>
           </View>
           <Divider />
-          <Heading level={2}>Current Notes</Heading>
+          <Heading level={2}>Current Patterns</Heading>
           <Grid
             margin="3rem 0"
             autoFlow="column"
