@@ -20,4 +20,6 @@ Currently, PatternPal is able to authenticate users using their email address an
 <img src="login.png" width= "450"; height="450"; alt="Login Page">
 Next, once we login, we can create notes about the patterns. We can add a pattern name and a pattern description. We can also select the type of project (knitting or crocheting), and add a file with an image/pattern pdf. I hope to be able to add stitch types and counts directly into the app, but it's currently a work in progress. 
 <img src="createnote.png" width= "450"; height="450"; alt="Create Note Page">
+Additionally, below this, we can see the already saved patterns. Here's an example of what they look like:
+<img src="testpattern.png" width= "450"; height="450"; alt="Test Pattern">
 
