@@ -16,5 +16,5 @@ My vision for PatternPal is to be an all inclusive tool for organizing and manag
 
 <h2 id="features">Features</h2>
 Currently, PatternPal is able to authenticate users using their email address and password, that can be set up using the create account page, as shown here:
-<img src="createacc.png" width= "300"; height="300"; alt="Italian Trulli">
-<img src="login.png" width: 50%; height: auto; alt="Italian Trulli">
+<img src="createacc.png" width= "450"; height="450"; alt="Create Account Page">
+<img src="login.png" width= "450"; height="450"; alt="Login Page">
