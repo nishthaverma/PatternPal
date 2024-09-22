@@ -22,4 +22,5 @@ Next, once we login, we can create notes about the patterns. We can add a patter
 <img src="createnote.png" width= "450"; height="auto"; alt="Create Note Page">
 Additionally, below this, we can see the already saved patterns. Here's an example of what they look like:
 <img src="testpattern.png" width= "450"; height="auto"; alt="Test Pattern">
+These notes are currently private and you can only view them with the account credentials. I'm currently learning how to add functionality for multiple profiles.
 
